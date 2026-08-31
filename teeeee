@@ -1,0 +1,2779 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Backloggd - A Video Game Collection Tracker</title>
+
+		<!-- HTML Meta Tags -->
+			<meta name="description" content="Keep a virtual backlog of your video game collection, then rate and review the ones you&#39;ve played to share with your friends!">
+
+			<!-- Google / Search Engine Tags -->
+			<meta itemprop="name" content="Backloggd - A Video Game Collection Tracker">
+			<meta itemprop="description" content="Keep a virtual backlog of your video game collection, then rate and review the ones you&#39;ve played to share with your friends!">
+			<meta itemprop="image" content="https://backloggd.b-cdn.net/meta_banner.png">
+
+			<!-- Facebook Meta Tags -->
+			<meta property="og:url" content="https://www.backloggd.com">
+			<meta property="og:type" content="website">
+			<meta property="og:title" content="Backloggd - A Video Game Collection Tracker">
+			<meta property="og:description" content="Keep a virtual backlog of your video game collection, then rate and review the ones you&#39;ve played to share with your friends!">
+			<meta property="og:image" content="https://backloggd.b-cdn.net/meta_banner.png">
+
+			<!-- Twitter Meta Tags -->
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:title" content="Backloggd - A Video Game Collection Tracker">
+			<meta name="twitter:description" content="Keep a virtual backlog of your video game collection, then rate and review the ones you&#39;ve played to share with your friends!">
+			<meta name="twitter:image" content="https://backloggd.b-cdn.net/meta_banner.png">
+
+			<!-- Meta Tags Generated via http://heymeta.com -->
+		
+		<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hdgfoum4BqD-JmpR1YK3-At_9Sk0UGQ9PUraNk9hfoStI85HVNSYKoxSYseQpKOA_7VhraHU8gXJCBqf1WESaQ" />
+			<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<meta name="google-site-verification" content="xlWrQJ4YzVwdsRQ9-Asux-nkCT1gYdCAvOxfOsq0ARE" />
+		<link rel="preconnect" href="https://backloggd.b-cdn.net" crossorigin>
+		<link rel="preload" href="https://backloggd.b-cdn.net/fonts/roboto/v1/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
+			<link href="https://backloggd.b-cdn.net/fonts/1.17.5/css/brands.min.css" rel="stylesheet">
+			<link href="https://backloggd.b-cdn.net/fonts/1.17.5/css/custom-icons.min.css" rel="stylesheet">
+			<link href="https://backloggd.b-cdn.net/fonts/1.17.5/css/duotone.min.css" rel="stylesheet">
+			<link href="https://backloggd.b-cdn.net/fonts/1.17.5/css/fontawesome.min.css" rel="stylesheet">
+			<link href="https://backloggd.b-cdn.net/fonts/1.17.5/css/light.min.css" rel="stylesheet">
+			<link href="https://backloggd.b-cdn.net/fonts/1.17.5/css/regular.min.css" rel="stylesheet">
+			<link href="https://backloggd.b-cdn.net/fonts/1.17.5/css/solid.min.css" rel="stylesheet">
+
+		<script src="https://static.backloggd.com/assets/application-e6c26b78.js" crossorigin="anonymous" data-turbo-track="reload"></script>
+		<link rel="stylesheet" crossorigin="anonymous" href="https://static.backloggd.com/assets/application-f1dc80d2.css" media="all" data-turbo-track="reload" />
+
+		<meta name="turbo-prefetch" content="false">
+		
+
+			<script>
+				window.googlefc = window.googlefc || {};
+				window.googlefc.usstatesoptout = window.googlefc.usstatesoptout || {};
+				window.googlefc.usstatesoptout.overrideDnsLink = true;
+			</script>
+			<script src="https://hb.vntsm.com/v4/live/vms/sites/backloggd.com/index.js" data-disable-placements="vertical-sticky"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script>
+				window.dataLayer = window.dataLayer || [];
+			  	function gtag(){dataLayer.push(arguments);}
+
+				gtag('consent', 'default', {
+					'ad_storage': 'denied',
+					'analytics_storage': 'denied',
+					'ad_personalization': 'denied',
+					'ad_user_data': 'denied',
+					'wait_for_update': 500
+				});
+			</script>
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-W5VPEML01P" data-turbo-track="reload"></script>
+	</head>
+	<body class="blur-adult larger-footer    "
+		data-authenticated="true" data-route="pages#home">
+		<div class="d-none" id="main-gradient"></div>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark " id="primary-nav">
+				<div class="container">
+						<a class="navbar-brand mr-2 my-auto py-0" href="/">Backloggd</a>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item mr-sm-2 d-inline d-md-none">
+								<a class="nav-link d-inline mr-1 position-relative" id="nav-notification-bell" href="/notifications/"><i class="fa-solid fa-bell"></i><span class="notification-indicator"></span></a>
+							<a class="nav-link d-inline mr-2" href="/games/lib/popular/">Games</a>
+							<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</li>
+					</ul>
+
+					<div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+								<li class="nav-item d-none d-md-block">
+									<a class="nav-link position-relative" id="nav-notification-bell" href="/notifications/"><i class="fa-solid fa-bell"></i><span class="notification-indicator"></span></a>
+								</li>
+								<li class="nav-item dropdown d-none d-md-block" id="profile-li">
+									<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										AndrogL <i class="fa-solid fa-chevron-down fa-xs"></i>
+									</a>
+									<div class="dropdown-menu mt-0 py-0" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item py-1" href="/u/AndrogL/">Profile</a>
+										<div class="dropdown-divider my-0"></div>
+										<a class="dropdown-item py-1" href="/u/AndrogL/games/">Played</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/playing/">Playing</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/backlog/">Backlog</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/wishlist/">Wishlist</a>
+										<div class="dropdown-divider my-0"></div>
+										<a class="dropdown-item py-1" href="/u/AndrogL/journal/">Journal</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/activity/">Activity</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/reviews/">Reviews</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/lists/">Lists</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/following/">Friends</a>
+										<a class="dropdown-item py-1" href="/u/AndrogL/likes/">Likes</a>
+										<div class="dropdown-divider my-0"></div>
+										<a class="dropdown-item py-1" href="/settings/">Settings</a>
+										<a data-turbo-method="delete" class="dropdown-item pt-1 pb-2" rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a>
+									</div>
+								</li>
+								<li class="nav-item mr-sm-2 d-block d-md-none">
+									<div class="row mx-0" id="mobile-user-nav">
+										<div class="col-4 pr-1">
+											<a class="nav-link" href="/u/AndrogL"><i class="fa-solid fa-user"></i> My Profile</a>
+										</div>
+										<div class="col-4 px-1">
+											<a class="nav-link" href="/settings/"><i class="fa-solid fa-gears"></i> Settings</a>
+										</div>
+										<div class="col-4 pl-1">
+											<a data-turbo-method="delete" class="nav-link" rel="nofollow" data-method="delete" href="/users/sign_out">
+												<i class="fa-solid fa-right-from-bracket"></i> Log Out
+</a>										</div>
+										<div class="col-3 pr-1">
+											<a class="nav-link" href="/u/AndrogL/played/"><i class="fa-kit fa-gamepad-classic"></i><br> Played</a>
+										</div>
+										<div class="col-3 px-1">
+											<a class="nav-link" href="/u/AndrogL/playing/"><i class="fa-solid fa-play"></i><br>  Playing</a>
+										</div>
+										<div class="col-3 px-1">
+											<a class="nav-link" href="/u/AndrogL/backlog/"><i class="fa-kit fa-books-classic"></i><br> Backlog</a>
+										</div>
+										<div class="col-3 pl-1">
+											<a class="nav-link" href="/u/AndrogL/wishlist/"><i class="fa-solid fa-gift"></i><br> Wishlist</a>
+										</div>
+										<div class="col-6 pr-1">
+											<a class="nav-link" href="/u/AndrogL/journal/"><i class="fa-solid fa-book"></i> Journal</a>
+										</div>
+										<div class="col-6 pl-1">
+											<a class="nav-link" href="/u/AndrogL/activity/"><i class="fa-solid fa-clock-rotate-left"></i> Activity</a>
+										</div>
+										<div class="col-4 pr-1">
+											<a class="nav-link" href="/u/AndrogL/reviews/"><i class="fa-solid fa-align-right"></i> Reviews</a>
+										</div>
+										<div class="col-4 px-1">
+											<a class="nav-link" href="/u/AndrogL/lists/"><i class="fa-solid fa-layer-group"></i> Lists</a>
+										</div>
+										<div class="col-4 pl-1">
+											<a class="nav-link" href="/u/AndrogL/likes/"><i class="fa-solid fa-heart"></i> Likes</a>
+										</div>
+										<div class="col-6 pr-1">
+											<a class="nav-link" href="/u/AndrogL/following/"><i class="fa-solid fa-user-group"></i> Following</a>
+										</div>
+										<div class="col-6 pl-1">
+											<a class="nav-link" href="/u/AndrogL/followers/"><i class="fa-solid fa-user-group fa-flip-horizontal"></i> Followers</a>
+										</div>
+									</div>
+								</li>
+							<li class="nav-item d-none d-md-block mr-2">
+								<a class="nav-link" href="/games/lib/popular/">Games</a>
+							</li>
+						</ul>
+						<form class="form-inline mx-3 mx-md-0 my-2 my-md-0" data-turbo="false" action="/search" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GPgsWfVkGEzcbXSfVgGNiifMw6R2Fw9xaRBHsEof3NSva_fd7nXPyFpas8jHIDmAr6uxbCsotZXBCTOA1hRvwQ" autocomplete="off" />
+							<div class="input-group">
+								<input class="form-control border-right-0 search-bar" id="nav-bar-search" type="search" placeholder="Search" aria-label="Search" name="query" autocomplete="off" data-behavior="autocomplete">
+								<span class="input-group-append mr-md-2">
+									 <button class="btn border-left-0 pl-1 pr-2 search-btn" type="submit">
+									 	<i class="fa-solid fa-magnifying-glass"></i>
+									 </button>
+								</span>
+							</div>
+</form>						<div class="row mx-0 mb-2 mb-md-0">
+							<div class="col my-auto px-0 mx-3 mx-md-0">
+									<button class="btn btn-main mb-2 my-sm-0 py-0" id="add-a-game" type="submit" data-toggle="modal" data-target="#add-a-game-modal"><i class="fa-solid fa-plus fa-xs"></i> Log a Game</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+
+		<main role="main" class="main">
+			<div class="container">
+				
+
+
+	<div class="row mt-2" id="profile-quickview">
+		<div class="col">
+			<div id="user-info">
+				<div class="row mt-2">
+					<div class="col">
+						<div class="row mb-4 position-relative" id="welcome-banner">
+							<div class="col-auto mt-auto pr-2 ml-auto">
+								<p class="mb-0">Welcome back</p>
+							</div>
+							<div class="col-auto pl-0 pr-2">
+								<div class="avatar fixed-small">
+									<a href="/u/AndrogL/"><img src="https://backloggd-avatars.b-cdn.net/axjiqq9qmaxasyl2y0hric23pqbb?optimizer=image&amp;quality=50" width="150" height="150" /></a>
+								</div>
+							</div>
+							<div class="col-auto pl-0 pr-1 mt-auto mr-auto mr-md-0">
+								<a href="/u/AndrogL/">AndrogL</a>
+							</div>
+							<div class="col-auto d-none d-md-flex mt-auto pl-0 mr-auto">
+								<p class="mb-0" id="daily-tip">, your collection awaits...</p>
+							</div>
+							<button type="button" class="btn btn-link feedback-button d-none d-lg-block" feedback_type="home-page-v2" is_beta="false" question="How do you like the home page?"><i class="fa-solid fa-message-smile"></i> Submit feedback</button>
+						</div>
+							<div class="row" id='quick-access-widget-bar'>
+								<div class="col">
+									<div class="row mt-4 mb-1">
+										<div class="col position-relative" id="widget-0">
+											<div class="quick-access-widget">
+												<div class="row quick-access-container">
+													<div class="col">
+														<div class="row bottom-row mb-3 loading-widget" widget_type="profile_stats" widget_id="">
+	<div class="col-auto mx-auto mb-4">
+		<i class="fa-duotone fa-solid fa-spinner-third fa-spin fa-xl"></i>
+	</div>
+</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col">
+														<p class="quick-access-widget-title">Profile Stats</p>
+												</div>
+											</div>
+										</div>
+										<div class="col d-none d-lg-block position-relative" id="widget-1">
+											<div class="quick-access-widget">
+												<div class="row quick-access-container">
+													<div class="col">
+														<div class="row bottom-row">
+	<div class="col-12 col-md-8 mx-auto">
+		<div class="row mx-0" id="ratings-bars-height">
+		<div class="col px-0 top-tooltip" data-tippy-content="9 | 0.5 ★ Ratings (3.3%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:1/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 15.517241379310345%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="3 | 1.0 ★ Ratings (1.1%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:2/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 5.172413793103448%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="12 | 1.5 ★ Ratings (4.3%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:3/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 20.689655172413794%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="11 | 2.0 ★ Ratings (4.0%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:4/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 18.96551724137931%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="39 | 2.5 ★ Ratings (14.1%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:5/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 67.24137931034483%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="55 | 3.0 ★ Ratings (19.9%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:6/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 94.82758620689656%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="49 | 3.5 ★ Ratings (17.8%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:7/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 84.48275862068965%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="35 | 4.0 ★ Ratings (12.7%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:8/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 60.3448275862069%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="5 | 4.5 ★ Ratings (1.8%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:9/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 8.620689655172415%;"></div>
+			</a>
+		</div>
+		<div class="col px-0 top-tooltip" data-tippy-content="58 | 5.0 ★ Ratings (21.0%)">
+			<a class="d-block h-100" href="/u/AndrogL/games/added/rating:10/" data-turbo-frame="_top">
+				<div class="bar-h " style="height: 100.0%;"></div>
+			</a>
+		</div>
+</div>
+<div class="row">
+	<div class="col subtitle-text">
+		1★
+	</div>
+	<div class="col ml-auto text-right subtitle-text">
+		5★
+	</div>
+</div>
+
+	</div>
+</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col">
+														<p class="quick-access-widget-title">Game Ratings</p>
+												</div>
+											</div>
+										</div>
+										<div class="col position-relative" id="widget-2">
+											<div class="quick-access-widget">
+												<div class="row quick-access-container">
+													<div class="col">
+														<div class="row bottom-row mx-3">
+		<div class="col-4 col-md-3 px-1 mt-2 ">
+			
+<div class="card mx-auto game-cover overlay-hide quick-access-cover" data-tippy-content="" game_id="72480">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co74jf.jpg" alt="Daikaijuu Battle: Ultra Coliseum">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+		</div>
+		<div class="col-4 col-md-3 px-1 mt-2 ">
+			
+<div class="card mx-auto game-cover overlay-hide quick-access-cover" data-tippy-content="" game_id="1985">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1v85.jpg" alt="Metal Gear Solid V: The Phantom Pain">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+		</div>
+		<div class="col-4 col-md-3 px-1 mt-2 ">
+			
+<div class="card mx-auto game-cover overlay-hide quick-access-cover" data-tippy-content="" game_id="156612">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3qpq.jpg" alt="Outcore: Desktop Adventure">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+		</div>
+</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col">
+														<p class="quick-access-widget-title">Quick Log</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr class="mt-3 mb-1">
+									<div class="row mb-3" id="quick-access-settings">
+										<div class="col-auto ml-auto pr-2">
+											<button class="btn btn-link top-tooltip" id="widget-editor-toggle" data-tippy-content="Edit widgets"><i class="fa-solid fa-gear"></i></button>
+										</div>
+										<div class="col-auto pl-0">
+											<button class="btn btn-link top-tooltip" id="quick-access-toggle" data-tippy-content="Hide widget bar" user_id="510041"><i class="fa-regular fa-eye-low-vision"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr class="mt-0 mb-2 d-none">
+
+<div class="row mb-2">
+	<div class="col">
+		<div class="row home-heading">
+			<div class="col-auto pr-0">
+				<h2>Recently trending</h2>
+			</div>
+			<div class="col-auto ml-auto pl-2 mt-auto home-more-link">
+				<a href="/games/lib/trending/">See More</a>
+			</div>
+		</div>
+		<div class="row mb-3 mx-n1 mx-md-n3 " id="trending-games" >
+				<div class="col mx-auto px-1 px-md-3">
+					
+<div class="card mx-auto game-cover quick-access" data-tippy-content="" game_id="279624">
+			<a href="/games/big-walk/" class="cover-link" data-turbo-frame="_top"></a>
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7h9m.jpg" alt="Big Walk">
+		<div class="overlay"></div>
+	</div>
+			<div class="quick-access-bar" game_id="279624" data-controller="quick-access">
+				<div class="row mx-0">
+					<div class="col-auto my-auto pl-2 pr-1 played-btn-container ml-auto" game_id="279624">
+						<button class="button-link btn-play btn-unplayed top-tooltip" data-tippy-content="Played" play_type="">
+							<i class="fa-kit fa-gamepad-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-1 backlog-btn-container" game_id="279624">
+						<button class="button-link btn-play mx-auto top-tooltip"  data-tippy-content="Backlog">
+							<i class="fa-kit fa-books-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-0 mr-auto">
+						<button class="button-link mx-auto btn-play more-button pl-1 pr-2" game_id="279624"><i class="fa-solid fa-ellipsis"></i></button>
+					</div>
+				</div>
+			</div>
+		<div class="game-text-centered">Big Walk</div>
+</div>
+
+	<div class="d-none" id="more-button-container-279624">
+		<div class="container-fluid quick-access-bar-more">
+			<a class="quick-journal" game_id="279624">
+				<div class="row pt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-book-open"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Edit log
+					</div>
+				</div>
+			</a>
+			<a class="quick-list" game_id="279624">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-layer-plus"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Add to list
+					</div>
+				</div>
+			</a>
+			<a class="quick-logs d-none" game_id="279624" username="AndrogL">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-list-timeline"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						View logs
+					</div>
+				</div>
+			</a>
+			<hr class="my-1">
+			<a class="quick-game-like" game_id="279624">
+				<div class="row">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-heart"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Like
+					</div>
+				</div>
+			</a>
+			<span class="playing-btn-container" game_id="279624">
+				<a class="log-type-btn" id="playing-279624" >
+					<div class="row mt-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Playing
+						</div>
+					</div>
+				</a>
+			</span>
+			<span class="wishlist-btn-container" game_id="279624">
+				<a class="log-type-btn" id="wishlist-279624">
+					<div class="row mt-1 pb-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-gift"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Wishlist
+						</div>
+					</div>
+				</a>
+			</span>
+		</div>
+	</div>
+
+	<div class="d-none" 
+		id="preloaded-log-279624">
+	</div>
+
+				</div>
+				<div class="col mx-auto px-1 px-md-3">
+					
+<div class="card mx-auto game-cover quick-access" data-tippy-content="" game_id="1877">
+			<a href="/games/cyberpunk-2077/" class="cover-link" data-turbo-frame="_top"></a>
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaih8.jpg" alt="Cyberpunk 2077">
+		<div class="overlay"></div>
+	</div>
+			<div class="quick-access-bar" game_id="1877" data-controller="quick-access">
+				<div class="row mx-0">
+					<div class="col-auto my-auto pl-2 pr-1 played-btn-container ml-auto" game_id="1877">
+						<button class="button-link btn-play btn-unplayed top-tooltip" data-tippy-content="Played" play_type="">
+							<i class="fa-kit fa-gamepad-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-1 backlog-btn-container" game_id="1877">
+						<button class="button-link btn-play mx-auto top-tooltip"  data-tippy-content="Backlog">
+							<i class="fa-kit fa-books-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-0 mr-auto">
+						<button class="button-link mx-auto btn-play more-button pl-1 pr-2" game_id="1877"><i class="fa-solid fa-ellipsis"></i></button>
+					</div>
+				</div>
+			</div>
+		<div class="game-text-centered">Cyberpunk 2077</div>
+</div>
+
+	<div class="d-none" id="more-button-container-1877">
+		<div class="container-fluid quick-access-bar-more">
+			<a class="quick-journal" game_id="1877">
+				<div class="row pt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-book-open"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Edit log
+					</div>
+				</div>
+			</a>
+			<a class="quick-list" game_id="1877">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-layer-plus"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Add to list
+					</div>
+				</div>
+			</a>
+			<a class="quick-logs d-none" game_id="1877" username="AndrogL">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-list-timeline"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						View logs
+					</div>
+				</div>
+			</a>
+			<hr class="my-1">
+			<a class="quick-game-like" game_id="1877">
+				<div class="row">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-heart"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Like
+					</div>
+				</div>
+			</a>
+			<span class="playing-btn-container" game_id="1877">
+				<a class="log-type-btn" id="playing-1877" >
+					<div class="row mt-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Playing
+						</div>
+					</div>
+				</a>
+			</span>
+			<span class="wishlist-btn-container" game_id="1877">
+				<a class="log-type-btn" id="wishlist-1877">
+					<div class="row mt-1 pb-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-gift"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Wishlist
+						</div>
+					</div>
+				</a>
+			</span>
+		</div>
+	</div>
+
+	<div class="d-none" 
+		id="preloaded-log-1877">
+	</div>
+
+				</div>
+				<div class="col mx-auto px-1 px-md-3">
+					
+<div class="card mx-auto game-cover quick-access" data-tippy-content="" game_id="141114">
+			<a href="/games/007-first-light/" class="cover-link" data-turbo-frame="_top"></a>
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaoiz.jpg" alt="007 First Light">
+		<div class="overlay"></div>
+	</div>
+			<div class="quick-access-bar" game_id="141114" data-controller="quick-access">
+				<div class="row mx-0">
+					<div class="col-auto my-auto pl-2 pr-1 played-btn-container ml-auto" game_id="141114">
+						<button class="button-link btn-play btn-unplayed top-tooltip" data-tippy-content="Played" play_type="">
+							<i class="fa-kit fa-gamepad-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-1 backlog-btn-container" game_id="141114">
+						<button class="button-link btn-play mx-auto top-tooltip"  data-tippy-content="Backlog">
+							<i class="fa-kit fa-books-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-0 mr-auto">
+						<button class="button-link mx-auto btn-play more-button pl-1 pr-2" game_id="141114"><i class="fa-solid fa-ellipsis"></i></button>
+					</div>
+				</div>
+			</div>
+		<div class="game-text-centered">007 First Light</div>
+</div>
+
+	<div class="d-none" id="more-button-container-141114">
+		<div class="container-fluid quick-access-bar-more">
+			<a class="quick-journal" game_id="141114">
+				<div class="row pt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-book-open"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Edit log
+					</div>
+				</div>
+			</a>
+			<a class="quick-list" game_id="141114">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-layer-plus"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Add to list
+					</div>
+				</div>
+			</a>
+			<a class="quick-logs d-none" game_id="141114" username="AndrogL">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-list-timeline"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						View logs
+					</div>
+				</div>
+			</a>
+			<hr class="my-1">
+			<a class="quick-game-like" game_id="141114">
+				<div class="row">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-heart"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Like
+					</div>
+				</div>
+			</a>
+			<span class="playing-btn-container" game_id="141114">
+				<a class="log-type-btn" id="playing-141114" >
+					<div class="row mt-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Playing
+						</div>
+					</div>
+				</a>
+			</span>
+			<span class="wishlist-btn-container" game_id="141114">
+				<a class="log-type-btn" id="wishlist-141114">
+					<div class="row mt-1 pb-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-gift"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Wishlist
+						</div>
+					</div>
+				</a>
+			</span>
+		</div>
+	</div>
+
+	<div class="d-none" 
+		id="preloaded-log-141114">
+	</div>
+
+				</div>
+				<div class="col mx-auto px-1 px-md-3">
+					
+<div class="card mx-auto game-cover quick-access" data-tippy-content="" game_id="347668">
+			<a href="/games/resident-evil-requiem/" class="cover-link" data-turbo-frame="_top"></a>
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobmj0.jpg" alt="Resident Evil Requiem">
+		<div class="overlay"></div>
+	</div>
+			<div class="quick-access-bar" game_id="347668" data-controller="quick-access">
+				<div class="row mx-0">
+					<div class="col-auto my-auto pl-2 pr-1 played-btn-container ml-auto" game_id="347668">
+						<button class="button-link btn-play btn-unplayed top-tooltip" data-tippy-content="Played" play_type="">
+							<i class="fa-kit fa-gamepad-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-1 backlog-btn-container" game_id="347668">
+						<button class="button-link btn-play mx-auto top-tooltip"  data-tippy-content="Backlog">
+							<i class="fa-kit fa-books-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-0 mr-auto">
+						<button class="button-link mx-auto btn-play more-button pl-1 pr-2" game_id="347668"><i class="fa-solid fa-ellipsis"></i></button>
+					</div>
+				</div>
+			</div>
+		<div class="game-text-centered">Resident Evil Requiem</div>
+</div>
+
+	<div class="d-none" id="more-button-container-347668">
+		<div class="container-fluid quick-access-bar-more">
+			<a class="quick-journal" game_id="347668">
+				<div class="row pt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-book-open"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Edit log
+					</div>
+				</div>
+			</a>
+			<a class="quick-list" game_id="347668">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-layer-plus"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Add to list
+					</div>
+				</div>
+			</a>
+			<a class="quick-logs d-none" game_id="347668" username="AndrogL">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-list-timeline"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						View logs
+					</div>
+				</div>
+			</a>
+			<hr class="my-1">
+			<a class="quick-game-like" game_id="347668">
+				<div class="row">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-heart"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Like
+					</div>
+				</div>
+			</a>
+			<span class="playing-btn-container" game_id="347668">
+				<a class="log-type-btn" id="playing-347668" >
+					<div class="row mt-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Playing
+						</div>
+					</div>
+				</a>
+			</span>
+			<span class="wishlist-btn-container" game_id="347668">
+				<a class="log-type-btn" id="wishlist-347668">
+					<div class="row mt-1 pb-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-gift"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Wishlist
+						</div>
+					</div>
+				</a>
+			</span>
+		</div>
+	</div>
+
+	<div class="d-none" 
+		id="preloaded-log-347668">
+	</div>
+
+				</div>
+				<div class="col mx-auto px-1 px-md-3">
+					
+<div class="card mx-auto game-cover quick-access" data-tippy-content="" game_id="348977">
+			<a href="/games/splatoon-raiders/" class="cover-link" data-turbo-frame="_top"></a>
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobyho.jpg" alt="Splatoon Raiders">
+		<div class="overlay"></div>
+	</div>
+			<div class="quick-access-bar" game_id="348977" data-controller="quick-access">
+				<div class="row mx-0">
+					<div class="col-auto my-auto pl-2 pr-1 played-btn-container ml-auto" game_id="348977">
+						<button class="button-link btn-play btn-unplayed top-tooltip" data-tippy-content="Played" play_type="">
+							<i class="fa-kit fa-gamepad-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-1 backlog-btn-container" game_id="348977">
+						<button class="button-link btn-play mx-auto top-tooltip"  data-tippy-content="Backlog">
+							<i class="fa-kit fa-books-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-0 mr-auto">
+						<button class="button-link mx-auto btn-play more-button pl-1 pr-2" game_id="348977"><i class="fa-solid fa-ellipsis"></i></button>
+					</div>
+				</div>
+			</div>
+		<div class="game-text-centered">Splatoon Raiders</div>
+</div>
+
+	<div class="d-none" id="more-button-container-348977">
+		<div class="container-fluid quick-access-bar-more">
+			<a class="quick-journal" game_id="348977">
+				<div class="row pt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-book-open"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Edit log
+					</div>
+				</div>
+			</a>
+			<a class="quick-list" game_id="348977">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-layer-plus"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Add to list
+					</div>
+				</div>
+			</a>
+			<a class="quick-logs d-none" game_id="348977" username="AndrogL">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-list-timeline"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						View logs
+					</div>
+				</div>
+			</a>
+			<hr class="my-1">
+			<a class="quick-game-like" game_id="348977">
+				<div class="row">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-heart"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Like
+					</div>
+				</div>
+			</a>
+			<span class="playing-btn-container" game_id="348977">
+				<a class="log-type-btn" id="playing-348977" >
+					<div class="row mt-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Playing
+						</div>
+					</div>
+				</a>
+			</span>
+			<span class="wishlist-btn-container" game_id="348977">
+				<a class="log-type-btn" id="wishlist-348977">
+					<div class="row mt-1 pb-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-gift"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Wishlist
+						</div>
+					</div>
+				</a>
+			</span>
+		</div>
+	</div>
+
+	<div class="d-none" 
+		id="preloaded-log-348977">
+	</div>
+
+				</div>
+				<div class="col mx-auto px-1 px-md-3">
+					
+<div class="card mx-auto game-cover quick-access" data-tippy-content="" game_id="127044">
+			<a href="/games/marvels-spider-man-2/" class="cover-link" data-turbo-frame="_top"></a>
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobg1k.jpg" alt="Marvel&#39;s Spider-Man 2">
+		<div class="overlay"></div>
+	</div>
+			<div class="quick-access-bar" game_id="127044" data-controller="quick-access">
+				<div class="row mx-0">
+					<div class="col-auto my-auto pl-2 pr-1 played-btn-container ml-auto" game_id="127044">
+						<button class="button-link btn-play btn-unplayed top-tooltip" data-tippy-content="Played" play_type="">
+							<i class="fa-kit fa-gamepad-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-1 backlog-btn-container" game_id="127044">
+						<button class="button-link btn-play mx-auto top-tooltip"  data-tippy-content="Backlog">
+							<i class="fa-kit fa-books-classic"></i>
+						</button>
+					</div>
+					<div class="col-auto my-auto px-0 mr-auto">
+						<button class="button-link mx-auto btn-play more-button pl-1 pr-2" game_id="127044"><i class="fa-solid fa-ellipsis"></i></button>
+					</div>
+				</div>
+			</div>
+		<div class="game-text-centered">Marvel&#39;s Spider-Man 2</div>
+</div>
+
+	<div class="d-none" id="more-button-container-127044">
+		<div class="container-fluid quick-access-bar-more">
+			<a class="quick-journal" game_id="127044">
+				<div class="row pt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-book-open"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Edit log
+					</div>
+				</div>
+			</a>
+			<a class="quick-list" game_id="127044">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-layer-plus"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Add to list
+					</div>
+				</div>
+			</a>
+			<a class="quick-logs d-none" game_id="127044" username="AndrogL">
+				<div class="row mt-1">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-list-timeline"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						View logs
+					</div>
+				</div>
+			</a>
+			<hr class="my-1">
+			<a class="quick-game-like" game_id="127044">
+				<div class="row">
+					<div class="col-auto pl-2 pr-1 my-auto">
+						<i class="fa-solid fa-heart"></i>
+					</div>
+					<div class="col pr-2 pl-0 my-auto">
+						Like
+					</div>
+				</div>
+			</a>
+			<span class="playing-btn-container" game_id="127044">
+				<a class="log-type-btn" id="playing-127044" >
+					<div class="row mt-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Playing
+						</div>
+					</div>
+				</a>
+			</span>
+			<span class="wishlist-btn-container" game_id="127044">
+				<a class="log-type-btn" id="wishlist-127044">
+					<div class="row mt-1 pb-1">
+						<div class="col-auto pl-2 pr-1 my-auto">
+							<i class="fa-solid fa-gift"></i>
+						</div>
+						<div class="col pr-2 pl-0 my-auto">
+							Wishlist
+						</div>
+					</div>
+				</a>
+			</span>
+		</div>
+	</div>
+
+	<div class="d-none" 
+		id="preloaded-log-127044">
+	</div>
+
+				</div>
+		</div>
+	</div>
+</div>
+	<div class="row mb-3">
+		<div class="col">
+			<div class="prosper-adframe" data-placement="billboard,mobile_banner" data-alias="home-page-top"></div>
+		</div>
+	</div>
+<div class="row mb-3">
+	<div class="col">
+		<div class="row home-heading">
+			<div class="col-auto pr-0">
+				<h2>Popular reviews</h2>
+			</div>
+			<div class="col-auto ml-auto mt-auto home-more-link">
+				<a href="/reviews/trending/">See More</a>
+			</div>
+		</div>
+		<div class="row">
+				<div class="col-12 col-md-6">
+					
+<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="/games/star-fox--5/" data-turbo-frame="_top">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="400709">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coc11a.jpg" alt="Star Fox">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1 review-details">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="/u/jarshzone/" data-turbo-frame="_top">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">jarshzone</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										      
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto pr-1">
+									    		<p class="mb-0 filler-text"><a href="/u/jarshzone/review/5167919/" class="review-game-link" data-turbo-frame="_top">reviewed <span class="review-game-name">Star Fox</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+							    <div class="col-auto my-auto game-status  pl-2 pr-1">
+								    	<a href=/u/jarshzone/games/title:asc/game_status:played/ data-turbo-frame="_top">
+								    		<p class="mb-0 play-type played">Played</p>
+								    		<div class="status-color-indicator play-type-bkg played"></div>
+								    	</a>
+							    </div>
+									<div class="col-12 col-sm-auto mt-1 mt-sm-0 d-sm-none">
+									</div>
+							    	<div class="col-auto my-auto pl-0 pr-1 filler-text">
+							    		<p class="mb-0">on</p>
+							    	</div>
+									<div class="col-auto my-auto pl-0 pr-1">
+							    		<a class="my-0 ml-auto review-platform" href="/u/jarshzone/games/title:asc/played_platform:switch-2/" data-turbo-frame="_top"><p class="mb-0">Nintendo Switch 2</p></a>
+									</div>
+				        	</div>
+				        </div>
+							<div class="col-auto my-auto d-none d-md-block">
+								<p class="mb-0 subtitle-text"><time datetime="2026-08-25T23:56:22Z" class="local-time-tooltip" data-local="time" data-format="%b %d, %Y">Aug 25, 2026</time></p>	
+							</div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="5167919">
+					<div class="col">
+						<div class="position-relative">
+							<div class=" mb-0 card-text" id="collapseReview5167919">
+								I kinda like how everyone looks like an extra fucked fucker in this one.<br><br>It’s good! It’s not as good as its source material but it’s still a fun way to play a classic. The lil challenges are cool and the multiplayer was fun in the little bit of time I spent with it. They should remake Adventures and make everyone look even more fucked.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_5167919">
+									<button class="like-heart button-link px-0" model="review" model_id="5167919">
+										<p class="my-auto"><i class="fa-solid fa-heart m-auto"></i></p>
+									</button>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="5167919"><a href="/u/jarshzone/review/5167919/likes/" like_counter_text="review-5167919" likes="12" data-turbo-frame="_top">12 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="/u/jarshzone/review/5167919#comments-header" class="comments-link" data-turbo-frame="_top"><i class="fa-solid fa-messages"></i> 2</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="/u/jarshzone/review/5167919/" data-turbo-frame="_top">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="5167919">
+						<a class="d-none review-more" data-toggle="collapse" href="#collapseReview5167919" aria-expanded="false" aria-controls="collapseReview5167919"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+				<div class="col-12 col-md-6">
+					
+<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="/games/esoteric-ebb/" data-turbo-frame="_top">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="213016">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobakp.jpg" alt="Esoteric Ebb">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1 review-details">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="/u/Ninjay/" data-turbo-frame="_top">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">Ninjay</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										      
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto pr-1">
+									    		<p class="mb-0 filler-text"><a href="/u/Ninjay/review/5170249/" class="review-game-link" data-turbo-frame="_top">reviewed <span class="review-game-name">Esoteric Ebb</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+										<div class="col-auto my-auto pl-0 pr-1 ">
+									    	
+<div class="row star-ratings-static">
+    <div class="stars-top" style="width:70%">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+    <div class="stars-bottom">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+</div>
+
+									    </div>
+									    <div class="col-auto my-auto pl-0 pr-1">
+									    	<i class="game-liked fa-solid fa-heart top-tooltip" data-tippy-content="Ninjay liked this game"></i>
+									    </div>
+							    <div class="col-auto my-auto game-status ml-2 pl-2 pr-1">
+								    	<a href=/u/Ninjay/games/last_played:desc/game_status:completed/ data-turbo-frame="_top">
+								    		<p class="mb-0 play-type completed">Completed</p>
+								    		<div class="status-color-indicator play-type-bkg completed"></div>
+								    	</a>
+							    </div>
+				        	</div>
+				        </div>
+							<div class="col-auto my-auto d-none d-md-block">
+								<p class="mb-0 subtitle-text"><time datetime="2026-08-26T14:48:10Z" class="local-time-tooltip" data-local="time" data-format="%b %d, %Y">Aug 26, 2026</time></p>	
+							</div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="5170249">
+					<div class="col">
+						<div class="position-relative">
+							<div class="collapse mb-0 card-text" id="collapseReview5170249">
+								If you’ve played DnD before you probably met that one person that built a whole world on their own and now can’t stop talking about it. I know someone like that, and I’ve been that person before as well. Esoteric Ebb is clearly made by just such a person. World-building might be a little overrated, but I can’t help but marvel at the passion that it takes to craft a well-constructed world. That is where Esoteric Ebb shines most. If you like world-building you will like Esoteric Ebb, its world is overflowing with detail and passion.<br><br>One thing that disappointed me though was Esoteric Ebb’s take on politics, especially coming from a game clearly inspired by Disco Elysium. The game tells the story of an election, the first for the state of Norvik. It’s a state that has many ideologies inside and outside trying to guide its future. It tells you of capitalism creeping into the system, as well as the nationalism of old clinging to power. The game is quite precise in identifying these problems, showing how they manifest, and how they could harm this dream of a democratic state.<br><br>Where Esoteric Ebb falters is in offering an answer to these problems. The game ends with the election. It leaves on the hopeful note that democracy will overcome all these problems because people are inherently good. I can sympathize with that idea, who couldn’t. I love democracy and I hope you do too. And I do believe in the good in people. But the problem is that democracy, as we have it now, doesn’t allow that goodness to manifest.<br><br>Just think about how far you, as an individual, are removed from the democratic process. You get to vote once in a while, maybe even join a party and vote for your representative there. But that’s it. Between elections you have little to no say in the politics that affect you. The current system of parliaments and nations is simply not participatory enough to be truly democratic.<br><br>I don’t know the perfect way to organize a democratic future, and I don’t expect Esoteric Ebb to offer one either. That said, I think it is harmful to be complacent within the current system. It is simply not enough to say “Everything will be alright because I can vote”. It is not enough to say “All parties are bad but at least I can vote for the best one”. If you love democracy, you should want <em>more</em> than that. And Esoteric Ebb simply doesn’t offer that.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_5170249">
+									<button class="like-heart button-link px-0" model="review" model_id="5170249">
+										<p class="my-auto"><i class="fa-solid fa-heart m-auto"></i></p>
+									</button>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="5170249"><a href="/u/Ninjay/review/5170249/likes/" like_counter_text="review-5170249" likes="14" data-turbo-frame="_top">14 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="/u/Ninjay/review/5170249#comments-header" class="comments-link" data-turbo-frame="_top"><i class="fa-solid fa-messages"></i> 0</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="/u/Ninjay/review/5170249/" data-turbo-frame="_top">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="5170249">
+						<a class="collapsed py-0 px-2 review-more" data-toggle="collapse" href="#collapseReview5170249" aria-expanded="false" aria-controls="collapseReview5170249"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+				<div class="col-12 col-md-6">
+					
+<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="/games/zelle/" data-turbo-frame="_top">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="122523">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co26az.jpg" alt="Zelle">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1 review-details">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="/u/etro/" data-turbo-frame="_top">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">etro</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										    		<p class="name-badge backer-badge ">BACKER</p>
+  
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto pr-1">
+									    		<p class="mb-0 filler-text"><a href="/u/etro/review/5182412/" class="review-game-link" data-turbo-frame="_top">reviewed <span class="review-game-name">Zelle</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+									    <div class="col-auto my-auto pl-0 pr-1">
+									    	<i class="game-liked fa-solid fa-heart top-tooltip" data-tippy-content="etro liked this game"></i>
+									    </div>
+							    <div class="col-auto my-auto game-status ml-2 pl-2 pr-1">
+								    	<a href=/u/etro/games/added:desc/game_status:completed/ data-turbo-frame="_top">
+								    		<p class="mb-0 play-type completed">Completed</p>
+								    		<div class="status-color-indicator play-type-bkg completed"></div>
+								    	</a>
+							    </div>
+									<div class="col-12 col-sm-auto mt-1 mt-sm-0 d-sm-none">
+									</div>
+							    	<div class="col-auto my-auto pl-0 pr-1 filler-text">
+							    		<p class="mb-0">on</p>
+							    	</div>
+									<div class="col-auto my-auto pl-0 pr-1">
+							    		<a class="my-0 ml-auto review-platform" href="/u/etro/games/added:desc/played_platform:win/" data-turbo-frame="_top"><p class="mb-0">Windows PC</p></a>
+									</div>
+				        	</div>
+				        </div>
+							<div class="col-auto my-auto d-none d-md-block">
+								<p class="mb-0 subtitle-text"><time datetime="2026-08-29T00:09:14Z" class="local-time-tooltip" data-local="time" data-format="%b %d, %Y">Aug 29, 2026</time></p>	
+							</div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="5182412">
+					<div class="col">
+						<div class="position-relative">
+							<div class="collapse mb-0 card-text" id="collapseReview5182412">
+								This is an incredibly well made gem that pushes the limits of what can be done with RPG Maker MV, functioning as a nearly perfect conjuring of style and substance that creates a lovely experience. <br><br>To begin, I found the gameplay loop of <em>Zelle</em> to be really enjoyable. The game mostly functions as a simple point and click dungeon crawler, with "combat" sections that consist of quick time events where the only way to vanquish a foe is to press the correctly colored bead before the enemy grabs you within the designated time limit. It's simple enough on its face, where all you truly have to do to defeat an enemy is to click one button. And yet as you play through, the game almost ambushes you with creative usages of that system in order to keep you on your toes. If you don't pay attention and find an enemy in your way, you have to be ready to find the correct color to exorcise your foe. The game's atmosphere really ends up complimenting that agitation you experience from the combat by being so thick and brooding at every turn. Things change fast in the castle you're stuck in, and you can turn around and find an environment that once looked calm and tranquil then end up being wildly unnerving. <br><br>What I just described happens to only be one part of the game, which ends up shifting around the halfway point quite radically. That type of experimentation really aligns with my tastes, as it manages to masterfully reset your interest by the point the system described above might end up losing its novelty. It's a great lesson in how to properly pace a game's runtime, as the gameplay of a game shouldn't be treated as a means to push the narrative forward, with no desire to make the actual gameplay experience creative and compelling. This is a problem you see with a lot of RPG Maker projects, and perhaps the most contentious part of discussion surrounding these games (despite the fact that the engine itself is not at fault for the way people produce games within it, but I digress). <em>Zelle</em> avoids this completely with how dedicated the developers are to making the gameplay loop actually feel like a progressive part of the game's evolution as you play through it. <br><br>That sort of creative usage of different forms in a game can very easily become an unfocused mess of ideas which make you think the developer had only wanted to put as many ideas as they possibly could inside the game, but it ends up feeling more like a cohesive and vibrant collage of multiple ideas which work in tandem together to create an incredibly unique experience. I don't really have anything bad to say about <em>Zelle</em> at all for that reason. It's a lovely, distinctive, and eccentric game with a storybook charm that makes it perfect for playing on a late night before you go to bed.<br><br><strong>Recommended.</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_5182412">
+									<button class="like-heart button-link px-0" model="review" model_id="5182412">
+										<p class="my-auto"><i class="fa-solid fa-heart m-auto"></i></p>
+									</button>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="5182412"><a href="/u/etro/review/5182412/likes/" like_counter_text="review-5182412" likes="17" data-turbo-frame="_top">17 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="/u/etro/review/5182412#comments-header" class="comments-link" data-turbo-frame="_top"><i class="fa-solid fa-messages"></i> 0</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="/u/etro/review/5182412/" data-turbo-frame="_top">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="5182412">
+						<a class="collapsed py-0 px-2 review-more" data-toggle="collapse" href="#collapseReview5182412" aria-expanded="false" aria-controls="collapseReview5182412"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+				<div class="col-12 col-md-6">
+					
+<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="/games/machine-party/" data-turbo-frame="_top">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="397811">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobwhs.jpg" alt="Machine Party">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1 review-details">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="/u/tryhardy05/" data-turbo-frame="_top">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">tryhardy05</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										    		<p class="name-badge backer-badge ">BACKER</p>
+  
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto pr-1">
+									    		<p class="mb-0 filler-text"><a href="/u/tryhardy05/review/5184953/" class="review-game-link" data-turbo-frame="_top">reviewed <span class="review-game-name">Machine Party</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+										<div class="col-auto my-auto pl-0 pr-1 ">
+									    	
+<div class="row star-ratings-static">
+    <div class="stars-top" style="width:50%">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+    <div class="stars-bottom">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+</div>
+
+									    </div>
+							    <div class="col-auto my-auto game-status ml-2 pl-2 pr-1">
+								    	<a href=/u/tryhardy05/games/user-rating:desc/game_status:completed/ data-turbo-frame="_top">
+								    		<p class="mb-0 play-type completed">Completed</p>
+								    		<div class="status-color-indicator play-type-bkg completed"></div>
+								    	</a>
+							    </div>
+									<div class="col-12 col-sm-auto mt-1 mt-sm-0 d-sm-none">
+									</div>
+							    	<div class="col-auto my-auto pl-0 pr-1 filler-text">
+							    		<p class="mb-0">on</p>
+							    	</div>
+									<div class="col-auto my-auto pl-0 pr-1">
+							    		<a class="my-0 ml-auto review-platform" href="/u/tryhardy05/games/user-rating:desc/played_platform:win/" data-turbo-frame="_top"><p class="mb-0">Windows PC</p></a>
+									</div>
+				        	</div>
+				        </div>
+							<div class="col-auto my-auto d-none d-md-block">
+								<p class="mb-0 subtitle-text"><time datetime="2026-08-29T13:35:09Z" class="local-time-tooltip" data-local="time" data-format="%b %d, %Y">Aug 29, 2026</time></p>	
+							</div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="5184953">
+					<div class="col">
+						<div class="position-relative">
+							<div class="collapse mb-0 card-text" id="collapseReview5184953">
+								<em>Machine Party</em> is an odd game for me. Having never played a proper ‘party’ game before (like Mario Party), I went in quite excited to see what these games were all about. All I can say is this game was well… nothing special? <br><br>The time I had on this game was so bittersweet due to its highly repetitive nature and short playtime, however the minigames were overall very fun. Certain minigames definitely felt less polished and less thought-out (looking at you Spine Breaker!), but the games where you were able to push the other players were definitely the highlight. I keep reliving the memory of stunlocking one of my friends into a corner on Stable Footing and hearing him cuss me out as he fell.<br><br>However, this is one of those games where it is <em>highly</em> dependent on who you play with. I played with a group of friends with a great sense of humour and the ability to <em>actually</em> make the most of the minigames, which definitely made my experience better. In saying this, it was felt towards the end of our consecutive runs that we were running out of things to do and were quickly getting bored. If further minigames were added to pad out the runtime a bit, and true randomisation was implemented for the order of the minigames, the longevity could definitely increase my opinion of this game. However, I’m not sure how likely that will be unfortunately.<br><br>Because of the lack of replayability, <em>Machine Party</em> sits at the middle of the road, 5/10, for me.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_5184953">
+									<button class="like-heart button-link px-0" model="review" model_id="5184953">
+										<p class="my-auto"><i class="fa-solid fa-heart m-auto"></i></p>
+									</button>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="5184953"><a href="/u/tryhardy05/review/5184953/likes/" like_counter_text="review-5184953" likes="15" data-turbo-frame="_top">15 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="/u/tryhardy05/review/5184953#comments-header" class="comments-link" data-turbo-frame="_top"><i class="fa-solid fa-messages"></i> 0</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="/u/tryhardy05/review/5184953/" data-turbo-frame="_top">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="5184953">
+						<a class="collapsed py-0 px-2 review-more" data-toggle="collapse" href="#collapseReview5184953" aria-expanded="false" aria-controls="collapseReview5184953"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+		</div>
+	</div>
+</div>
+	<div class="row mb-4">
+		<div class="col">
+			<div class="row home-heading mb-2">
+				<div class="col-auto pr-0">
+					<h2>Latest news</h2>
+				</div>
+				<div class="col-auto ml-auto mt-auto home-more-link">
+					<a href="/about/recent-news/">See Past Articles</a>
+				</div>
+			</div>
+			<div class="row mt-2 mx-0 news-article-v2">
+				<a href="https://medium.com/p/74e3adc4db97">
+					<div class="col py-2">
+						<img src="https://cdn-images-1.medium.com/max/1024/1*nLt73SbRU4mzwJTJABPkuQ.png">
+						<h2 class="feed-title mb-0">New Feature: GOTY Lists</h2>
+						<p class="feed-content mb-0">Keep the fun of the events going with all new GOTY Lists.</p>
+						<p class="feed-date mt-2">May 14, 2026</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+<div class="row">
+	<div class="col">
+		<div class="row home-heading mb-2">
+			<div class="col-auto pr-0">
+				<h2>Popular lists</h2>
+			</div>
+		</div>
+		<div class="row home-page-lists">
+			<div class="col-12 col-sm-6 col-md-4 mb-3 list-col">
+	
+<div class="row list-display">
+	<div class="col-12">
+		<a href="/u/CtheIronblooded/list/cs-thoughts-on-gamescom-opening-night-live-82526/">
+			<div class="card-stack position-relative">
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coc64f.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cocbgb.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cob7ym.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaveg.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cocrjd.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+			</div>
+		</a>
+	</div>
+		<div class="col-12">
+			<div class="row">
+				<div class="col">
+					<h2 class="list-display-title"><a class="secondary-link" href="/u/CtheIronblooded/list/cs-thoughts-on-gamescom-opening-night-live-82526/">C&#39;s Thoughts on Gamescom Opening Night Live 8/25/26</a></h2>
+				</div>
+			</div>
+				<div class="row">
+						<div class="col-auto pr-1">
+							<p class="mb-0 entries-count">by <a class="subtle-link" href="/u/CtheIronblooded/">CtheIronblooded</a> |</p>
+						</div>
+					<div class="col-auto mr-auto pl-0">
+						<p class="mb-0 entries-count">25 Games</p>
+					</div>
+				</div>
+		</div>
+</div>
+</div><div class="col-12 col-sm-6 col-md-4 mb-3 list-col">
+	
+<div class="row list-display">
+	<div class="col-12">
+		<a href="/u/MendelPalace/list/rom-hacks--mods-worth-playing/">
+			<div class="card-stack position-relative">
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co69vk.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3bu4.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co677e.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4mgq.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3jib.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+			</div>
+		</a>
+	</div>
+		<div class="col-12">
+			<div class="row">
+				<div class="col">
+					<h2 class="list-display-title"><a class="secondary-link" href="/u/MendelPalace/list/rom-hacks--mods-worth-playing/">Rom Hacks &amp; Mods Worth Playing</a></h2>
+				</div>
+			</div>
+				<div class="row">
+						<div class="col-auto pr-1">
+							<p class="mb-0 entries-count">by <a class="subtle-link" href="/u/MendelPalace/">MendelPalace</a> |</p>
+						</div>
+					<div class="col-auto mr-auto pl-0">
+						<p class="mb-0 entries-count">131 Games</p>
+					</div>
+				</div>
+		</div>
+</div>
+</div><div class="col-12 col-sm-6 col-md-4 mb-3 list-col">
+	
+<div class="row list-display">
+	<div class="col-12">
+		<a href="/u/ChloeCobalt/list/games-i-want-to-replay/">
+			<div class="card-stack position-relative">
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cob5a1.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1sfj.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1z.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+						
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rb4.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+			</div>
+		</a>
+	</div>
+		<div class="col-12">
+			<div class="row">
+				<div class="col">
+					<h2 class="list-display-title"><a class="secondary-link" href="/u/ChloeCobalt/list/games-i-want-to-replay/">Games I Want To Replay</a></h2>
+				</div>
+			</div>
+				<div class="row">
+						<div class="col-auto pr-1">
+							<p class="mb-0 entries-count">by <a class="subtle-link" href="/u/ChloeCobalt/">ChloeCobalt</a> |</p>
+						</div>
+					<div class="col-auto mr-auto pl-0">
+						<p class="mb-0 entries-count">10 Games</p>
+					</div>
+				</div>
+		</div>
+</div>
+</div>
+		</div>
+	</div>
+</div>
+	<div class="row mb-3 mb-md-4">
+		<div class="col">
+			<div class="prosper-adframe" data-placement="billboard,mobile_banner" data-alias="home-page-bottom"></div>
+		</div>
+	</div>
+<div class="row mb-2">
+	<div class="col-12 col-md-4">
+		<div class="row home-heading mb-2">
+			<div class="col mt-auto">
+				<h2>Coming soon</h2>
+			</div>
+			<div class="col-auto ml-auto mt-auto home-more-link">
+				<a href="/upcoming-games/">See More</a>
+			</div>
+		</div>
+		<div class="row show-release home-games-section" id="coming-soon">
+				<div class="col">
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/breathedge-2/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="252870">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co6m12.jpg" alt="Breathedge 2">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/breathedge-2/">Breathedge 2</a>
+								<p class="my-0 date">Aug 31</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/lady-death-demonicron/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="310761">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cocjy8.jpg" alt="Lady Death Demonicron">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/lady-death-demonicron/">Lady Death Demonicron</a>
+								<p class="my-0 date">Aug 31</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/project-reignition/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="315988">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co8s9z.jpg" alt="Project Reignition">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/project-reignition/">Project Reignition</a>
+								<p class="my-0 date">Aug 31</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/sucker-for-love-crush-landing/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="352990">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobp75.jpg" alt="Sucker for Love: Crush Landing">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/sucker-for-love-crush-landing/">Sucker for Love: Crush Landing</a>
+								<p class="my-0 date">Aug 31</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/serious-sam-shatterverse/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="396022">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobw5w.jpg" alt="Serious Sam: Shatterverse">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/serious-sam-shatterverse/">Serious Sam: Shatterverse</a>
+								<p class="my-0 date">Aug 31</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/toxic-yuri/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="397186">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cobvk9.jpg" alt="Toxic Yuri">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/toxic-yuri/">Toxic Yuri</a>
+								<p class="my-0 date">Aug 31</p>
+							</div>
+						</div>
+				</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-4">
+		<div class="row home-heading mb-2">
+			<div class="col-auto">
+				<h2>Recently anticipated</h2>
+			</div>
+		</div>
+		<div class="row show-release home-games-section" id="coming-soon">
+			<div class="col">
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/grand-theft-auto-vi/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="52189">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cocaa5.jpg" alt="Grand Theft Auto VI">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/grand-theft-auto-vi/">Grand Theft Auto VI</a>
+								<p class="my-0 date">Nov 19</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/marvels-wolverine/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="168667">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cob5mk.jpg" alt="Marvel&#39;s Wolverine">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/marvels-wolverine/">Marvel&#39;s Wolverine</a>
+								<p class="my-0 date">Sep 15</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/persona-4-revival/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="348210">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coc7iu.jpg" alt="Persona 4 Revival">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/persona-4-revival/">Persona 4 Revival</a>
+								<p class="my-0 date">Feb 18 2027</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/resident-evil-veronica/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="404673">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coc6ou.jpg" alt="Resident Evil Veronica">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/resident-evil-veronica/">Resident Evil Veronica</a>
+								<p class="my-0 date">Dec 31 2027</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/final-fantasy-vii-revelation/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="404721">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cocbgb.jpg" alt="Final Fantasy VII Revelation">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/final-fantasy-vii-revelation/">Final Fantasy VII Revelation</a>
+								<p class="my-0 date">Jun 30 2027</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/the-legend-of-zelda-ocarina-of-time--1/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="405460">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coc7pg.jpg" alt="The Legend of Zelda: Ocarina of Time">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/the-legend-of-zelda-ocarina-of-time--1/">The Legend of Zelda: Ocarina of Time</a>
+								<p class="my-0 date">Dec 31</p>
+							</div>
+						</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-4">
+		<div class="row home-heading mb-2">
+			<div class="col-auto">
+				<h2>Sleeper hits</h2>
+			</div>
+		</div>
+		<div class="row show-release home-games-section" id="coming-soon">
+			<div class="col">
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/the-sinking-city-2/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="289696">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7uod.jpg" alt="The Sinking City 2">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/the-sinking-city-2/">The Sinking City 2</a>
+								<p class="my-0 date">Avg 3.5★</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/duskfade--1/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="310665">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/cocda0.jpg" alt="Duskfade">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/duskfade--1/">Duskfade</a>
+								<p class="my-0 date">Avg 3.6★</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/cicadamata/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="377768">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaulm.jpg" alt="Cicadamata&quot;">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/cicadamata/">Cicadamata&quot;</a>
+								<p class="my-0 date">Avg 3.9★</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/servant-of-the-lake/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="350179">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coab7n.jpg" alt="Servant of the Lake">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/servant-of-the-lake/">Servant of the Lake</a>
+								<p class="my-0 date">Avg 4.0★</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/iron-nest-heavy-turret-simulator/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="377917">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coaupt.jpg" alt="Iron Nest: Heavy Turret Simulator">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/iron-nest-heavy-turret-simulator/">Iron Nest: Heavy Turret Simulator</a>
+								<p class="my-0 date">Avg 3.7★</p>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col col-cus-8 col-md-cus-6 pr-0">
+								<a href="/games/agent-64-spies-never-die/">
+									
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="148270">
+	<div class="overflow-wrapper">
+				<img class="card-img height" src="https://images.igdb.com/igdb/image/upload/t_cover_big/coakk2.jpg" alt="Agent 64: Spies Never Die">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+
+								</a>
+							</div>
+							<div class="col coming-details">
+								<a class="mb-0 name d-block" href="/games/agent-64-spies-never-die/">Agent 64: Spies Never Die</a>
+								<p class="my-0 date">Avg 3.3★</p>
+							</div>
+						</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row d-lg-none" id="home-page-feedback">
+	<div class="col-auto mx-auto">
+		<button type="button" class="btn btn-link feedback-button" feedback_type="home-page-v2" is_beta="false" question="How do you like the home page?"><i class="fa-solid fa-message-smile"></i> Submit feedback on the home page</button>
+	</div>
+</div>
+
+	<div class="micro-modal micromodal-slide" id="widget-edit-modal" aria-hidden="true">
+	  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+	    <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="widget-edit-modal-title">
+	       <div class="modal__content container-fluid my-0 scrollbar-secondary">
+		        <div class="row" id="quick-access-viewer">
+		        	<div class="col">
+		        		<div class="row mt-2">
+				          <div class="col">
+				            <h3 class="mb-0">Your widgets</h3>
+				            <p class="subtitle-text mb-4" id="general-widget-subtitle">Choose a slot to edit</p>
+				          </div>
+				        </div>
+		        		<div class="row">
+						      <div class="col-12 col-md mx-auto">
+						        <button class="btn btn-general widget-slot-edit w-100" type="button" slot="0" widget_type="profile_stats">
+						          <span class="widget-slot-edit-title">Profile Stats: Reviews / Lists</span> <i class="fa-solid fa-caret-down"></i>
+						        </button>
+						        <p class="subtitle-text text-center mt-1">Left widget</p>
+						      </div>
+						       <div class="col-12 col-md mx-auto">
+						        <button class="btn btn-general widget-slot-edit w-100" type="button" slot="1" widget_type="game_ratings">
+						          <span class="widget-slot-edit-title">Game Ratings</span> <i class="fa-solid fa-caret-down"></i>
+						        </button>
+						        <p class="subtitle-text text-center mt-1">Center widget*</p>
+						      </div>
+						       <div class="col-12 col-md mx-auto">
+						        <button class="btn btn-general widget-slot-edit w-100" type="button" slot="2" widget_type="quick_log">
+						          <span class="widget-slot-edit-title">Quick Log</span> <i class="fa-solid fa-caret-down"></i>
+						        </button>
+						        <p class="subtitle-text text-center mt-1">Right widget</p>
+						      </div>
+						    </div>
+						    <div class="row my-2">
+						    	<div class="col my-auto">
+						    		<p class="subtitle-text mb-0">* Center widget will be hidden on smaller screens</p>
+						    	</div>
+		              <div class="col-auto ml-auto">
+		                <button class="btn btn-main" id="widget-editor-close">Done editing</button>
+		              </div>
+		            </div>
+		        	</div>
+		        </div>
+		        <div class="row d-none" id="widget-selector">
+		        	<div class="col">
+		        		<div class="row mt-2">
+				          <div class="col">
+				            <h3 class="mb-0">Widget types</h3>
+				            <p class="subtitle-text mb-4" id="general-widget-subtitle">Select the widget type you want to use.</p>
+				          </div>
+				        </div>
+		        		<div class="row" id="widget-selector-container">
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="profile_stats" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/profile_stats.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Profile Stats: Reviews / Lists</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">View your all-time collection stats from a glance</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="profile_stats_friends" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/profile_stats_friends.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Profile Stats: Friends</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">View your all-time collection stats from a glance</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="yearly_stats" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/yearly_stats.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Yearly Stats</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">See your yearly stats from a glance</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="game_ratings" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/game_ratings.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Game Ratings</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">A bar graph displaying all of your game ratings</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="quick_log" is_customizable="true" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/quick_log.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Quick Log</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Your most recently journaled games. Selecting one will instantly open the journal for that game</p>
+				                	<div class="row widget-tags">
+				                			<div class="col-auto pr-1">
+				                				<p><i class="fa-solid fa-gear"></i> Customizable</p>
+				                			</div>
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="coming_soon" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/coming_soon.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Your Coming Soon</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Top unreleased games in your wishlist sorted by release date</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="games_played" is_customizable="true" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/games_played.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Played Games</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Top games you&#39;ve played using your default sort</p>
+				                	<div class="row widget-tags">
+				                			<div class="col-auto pr-1">
+				                				<p><i class="fa-solid fa-gear"></i> Customizable</p>
+				                			</div>
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="games_playing" is_customizable="true" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/games_playing.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Playing Games</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Top games you&#39;re playing using your default sort</p>
+				                	<div class="row widget-tags">
+				                			<div class="col-auto pr-1">
+				                				<p><i class="fa-solid fa-gear"></i> Customizable</p>
+				                			</div>
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="games_backlog" is_customizable="true" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/games_backlog.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Backlog Games</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Top games from your backlog using your default sort</p>
+				                	<div class="row widget-tags">
+				                			<div class="col-auto pr-1">
+				                				<p><i class="fa-solid fa-gear"></i> Customizable</p>
+				                			</div>
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="games_wishlist" is_customizable="true" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/games_wishlist.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Wishlist Games</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Top games from your wishlist using your default sort</p>
+				                	<div class="row widget-tags">
+				                			<div class="col-auto pr-1">
+				                				<p><i class="fa-solid fa-gear"></i> Customizable</p>
+				                			</div>
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="play_statuses" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/play_statuses.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Play Statuses</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">A bar graph of all your played statuses along with the total mastered games</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="guess_the_game" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/guess_the_game.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Guess The.Game Stats</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">View your all-time stats from Guess The.Game</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="list" is_customizable="true" is_premium="true" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/list.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">List</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Display one of your lists, optionally with play progress</p>
+				                	<div class="row widget-tags">
+				                			<div class="col-auto pr-1 mr-n2">
+				                				<p><i class="fa-solid fa-star"></i> Premium</p>
+				                			</div>
+				                			<div class="col-auto pr-1">
+				                				<p><i class="fa-solid fa-gear"></i> Customizable</p>
+				                			</div>
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="list_games" is_customizable="true" is_premium="true" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/list_games.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">List Games</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">Display the first few games from one on your lists</p>
+				                	<div class="row widget-tags">
+				                			<div class="col-auto pr-1 mr-n2">
+				                				<p><i class="fa-solid fa-star"></i> Premium</p>
+				                			</div>
+				                			<div class="col-auto pr-1">
+				                				<p><i class="fa-solid fa-gear"></i> Customizable</p>
+				                			</div>
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				            <div class="col-12 mx-auto position-relative mb-4 widget-option" widget_type="empty" is_customizable="false" is_premium="false" has_premium="false">
+				               <div class="row">
+				                <div class="col-12 col-sm-6 col-md-4">
+				                  <div class="widget-preview pb-3">
+				                    <img src="https://backloggd.b-cdn.net//widget_previews/empty.png">
+				                  </div>
+				                </div>
+				                <div class="col text-left pl-sm-2">
+				                	<p class="quick-access-widget-title"><span class="title-text">Empty</span><small class="selected-icon"><i class="fa-solid fa-circle-check"></i> Selected</small></p>
+				                	<p class="quick-access-widget-desc mb-1">An empty area to help space things out</p>
+				                	<div class="row widget-tags">
+				                	</div>
+				                </div>
+				              </div>
+				            </div>
+				        </div>
+				        <div class="row my-2">
+							<div class="col-auto ml-auto">
+							  <button class="btn btn-general widget-go-back">Go back</button>
+							</div>
+						</div>
+			        </div>
+		        </div>
+		        <div class="row d-none" id="widget-preview">
+		          <div class="col">
+		          	<div class="row mt-2">
+				          <div class="col">
+				            <h3 class="mb-0" id="selected-widget-title"></h3>
+				            <p class="subtitle-text mb-4" id="selected-widget-desc"></p>
+				          </div>
+				        </div>
+				      	<div class="row mb-3">
+				      		<div class="col col-md-6 mx-auto">
+				      			<div class="widget-preview">
+					              	<img src="">
+					                <div class="row pb-3">
+					                  <div class="col">
+					                    <p class="quick-access-widget-title"></p>
+					                  </div>
+					                </div>
+			          			</div>
+				      		</div>
+				      	</div>
+						<div class="row d-none" id="widget-customization-section">
+							<div class="col">
+							  <div class="row mb-2">
+							    <div class="col-auto">
+							      	<p class="mb-0 subtitle-text">Become a <a href="/backers/" target="_blank">Backer</a> to customize your widget</p>
+							    </div>
+							    <div class="col my-auto pl-0">
+							    	<hr class="my-0">
+							    </div>
+							  </div>
+							  <div class="row mb-3 position-relative" id="options-container"></div>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col-auto ml-auto pr-0">
+							  <button class="btn btn-general widget-go-back">Go back</button>
+							</div>
+							<div class="col-auto">
+							  <button class="btn btn-main" id="widget-use">Use widget</button>
+							</div>
+						</div>
+		          </div>
+		        </div>
+	       </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="micro-modal micromodal-slide" id="widget-list-modal" aria-hidden="true">
+	  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+	    <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="widget-list-modal-title">
+	       <div class="p-2 pt-3 modal__header">
+				<h5 class="mb-0 main-header ml-2">Select a list for your widget</h5>
+		   </div>
+	       <div class="modal__content container-fluid my-0 scrollbar-secondary">
+	       	<div class="row pt-2" id="list-container">
+	       	</div>
+	       </div>
+	    </div>
+	  </div>
+	</div>
+
+			</div>
+		</main>
+			<footer class="footer">
+				<div class="container my-2">
+					<div class="row mx-0">
+						<div class="col px-0">
+							<div class="row mx-0 text-muted">
+								<div class="col-auto ml-auto ml-md-0 my-auto px-0 mr-2">
+									<a href="/about/">About</a>
+								</div>
+								<div class="col-auto my-auto px-0 mr-2">
+									<a href="/contact/">Contact</a>
+								</div>
+								<div class="col-auto my-auto px-0 mr-2">
+									<a href="/backers/">Backers</a>
+								</div>
+								<div class="col-auto my-auto px-0 mr-2">
+									<a href="/roadmap/">Roadmap</a>
+								</div>
+								<div class="col-auto my-auto px-0 mr-2">
+									<a href="/about/terms-of-service/">Terms</a>
+								</div>
+								<div class="col-auto my-auto px-0 mr-auto mr-md-2">
+									<a href="/about/privacy/">Privacy</a>
+								</div>
+								<div class="col-auto px-0 social-media my-auto ml-auto d-none d-md-flex">
+									<a href="https://www.patreon.com/backloggd" target="_blank"><i class="fa-brands fa-patreon"></i></a>
+								</div>
+								<div class="col-auto ml-3 px-0 social-media my-auto d-none d-md-flex">
+									<a href="https://bsky.app/profile/backloggd.com" target="_blank"><i class="fa-brands fa-bluesky"></i></a>
+								</div>
+								<div class="col-auto ml-3 px-0 social-media my-auto d-none d-md-flex">
+									<a href="https://discord.gg/cMjGusjbwg" target="_blank"><i class="fa-brands fa-discord"></i></a>
+								</div>
+								<div class="col-auto ml-3 px-0 social-media my-auto d-none d-md-flex">
+									<a href="https://www.threads.net/@backloggd.official" target="_blank"><i class="fa-brands fa-threads"></i></a>
+								</div>
+							</div>
+							<div class="row mx-0 d-flex d-md-none">
+								<div class="col-auto px-0 social-media my-auto ml-auto">
+									<a href="https://www.patreon.com/backloggd" target="_blank"><i class="fa-brands fa-patreon"></i></a>
+								</div>
+								<div class="col-auto px-0 ml-3 social-media my-auto">
+									<a href="https://bsky.app/profile/backloggd.com" target="_blank"><i class="fa-brands fa-bluesky"></i></a>
+								</div>
+								<div class="col-auto px-0 ml-3 social-media my-auto">
+									<a href="https://discord.gg/cMjGusjbwg" target="_blank"><i class="fa-brands fa-discord"></i></a>
+								</div>
+								<div class="col-auto px-0 ml-3 social-media my-auto mr-auto">
+									<a href="https://www.threads.net/@backloggd.official" target="_blank"><i class="fa-brands fa-threads"></i></a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col d-md-none"></div>
+								<div class="col-auto my-auto d-none" id="nitro-gdpr-cookie-consent">
+									<button class="btn btn-small btn-general mb-1" onclick="window.__cmp('showModal');">
+										Update cookie preferences
+									</button>
+								</div>
+								<div class="col-auto my-auto d-none" id="nitro-ccpa-cookie-consent">
+									<span data-ccpa-link="1"></span>
+								</div>
+								<div class="col-auto my-auto d-none googlefc-us-states-optout">
+									<button class="btn btn-small btn-general mb-1">
+										Do Not Sell or Share My Personal Information
+									</button>
+								</div>
+								<div class="col d-md-none"></div>
+							</div>
+							<div class="row mx-0 text-muted small">
+								<div class="col-auto my-auto px-0 ml-auto ml-md-0">
+									© Backloggd LLC •
+								</div>
+								<div class="col-auto my-auto px-0 ml-1 mr-0">
+									<a href="/changelog/"><p class="my-0 ml-0">v1.17.5</p></a>
+								</div>
+								<div class="col-auto my-auto px-0 ml-1">
+									<p class="my-auto">• Powered by</p>
+								</div>
+								<div class="col-auto my-auto px-0 ml-1 igdb-logo mr-auto mr-md-0">
+									<a href="https://igdb.com" target="_blank"><p class="my-0 ml-0">IGDB</p></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		<!-- Dark Overlay element -->
+    	<div class="sidebar-overlay"></div>
+
+			<!-- Add A Game Modal -->
+			<div class="modal fade px-2 pr-md-0 mx-sm-auto modal-search" id="add-a-game-modal" tabindex="-1" role="dialog" aria-labelledby="add-a-game-modal" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+					<h1 class="mb-0 mb-1">Log a Game</h1>
+					<div class="modal-body p-0">
+						<form action="/search" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="c2IMWVm-q4zAmfuvyjyk6_kcY2t7Mgo_GUdLSgfQ747E8dfdQq98CEauPPhbHRDhcXsRoyYNsNuxXj96m9tcmw" autocomplete="off" />
+							<div class="input-group">
+								<input class="form-control py-2 border-right-0 search-bar" id="modal-game-search" type="search" placeholder="Search" aria-label="Search" name="query" autocomplete="off" data-behavior="autocomplete-search-game">
+								<span class="input-group-append">
+									<button class="btn border-left-0 pl-1 pr-2 search-btn" type="submit">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</button>
+								</span>
+							</div>
+</form>					</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row pb-2 d-none" id="cookie-banner">
+				<div class="col-auto ml-auto">
+					<p class="m-0 py-2">Cookies allow us to enhance our services. Do you agree to use of non-essential cookies?<br><a href="/about/privacy/#cookies">Our Cookie Policy</a></p>
+				</div>
+				<div class="col-auto my-auto ml-auto pr-0">
+					<button id="cookie-banner-accept" class="btn btn-main py-1">Agree</button>
+				</div>
+				<div class="col-auto my-auto">
+					<button class="btn btn-general py-1 cookie-banner-deny">Disagree</button>
+				</div>
+			</div>
+
+		<!-- Warning Dialog Modal -->
+		<div class="micro-modal micromodal-slide" id="journal-warning-modal" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				<div class="modal__container py-3 mx-3" role="dialog" aria-modal="true" aria-labelledby="journal-warning-title">
+					<div class="modal__content container-fluid my-0">
+						<div class="row">
+							<div class="col">
+								<h5 class="mb-0 main-header"><i class="fa-solid fa-triangle-exclamation"></i> Warning</h5>
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col">
+								<p class="mb-0" id="warning-desc"></p>
+							</div>
+						</div>
+						<div class="row d-none" id="password-section">
+							<div class="col">
+								<p class="subtitle-text mb-1">Verify your password to continue:</p>
+								<input class="backloggd-field w-100" type="password" id="warning-verify-password">
+								<p class="subtitle-text mt-1 text-right d-none text-white" id="verify-password-incorrect">Incorrect -- try again</p>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col-auto">
+								<div class="btn btn-general w-100" id="warning-abort"></div>
+							</div>
+							<div class="col-auto ml-auto pr-0">
+								<div class="btn btn-general w-100" id="warning-cancel" data-micromodal-close></div>
+							</div>
+							<div class="col-auto">
+								<div class="btn btn-main w-100" id="warning-save"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<!-- Play Date Modal -->
+			<div class="micro-modal micromodal-slide backloggd-modal" id="playthrough-modal" aria-hidden="true">
+				<div class="modal__overlay" tabindex="-1" data-close-parent-modal>
+					<div class="modal__container p-0" role="dialog" aria-modal="true" aria-labelledby="playthrough-modal-title">
+					<div class="p-0 m-0 modal__content container-fluid" id="playthrough-modal-content">
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="micro-modal micromodal-slide scrollbar-secondary" id="list-modal" aria-hidden="true">
+				<div class="modal__overlay" tabindex="-1" data-close-parent-modal>
+					<div class="modal__container mx-3" role="dialog" aria-modal="true" aria-labelledby="list-modal-title">
+						<div class="p-3 pt-3 modal__header">
+							<h5 class="mb-0 main-header" id="play-type-modal-title">Manage your lists</h5>
+							<p class="mb-0 subtitle-text" id="list-modal-game-title"></p>
+						</div>
+						<div class="modal__content container-fluid my-0">
+							<div class="row pt-2" id="list-container">
+							</div>
+						</div>
+						<div class="modal__footer container-fluid mt-2 mb-3">
+							<div class="row">
+								<div class="col-auto">
+									<div class="btn btn-general" data-micromodal-close>Cancel</div>
+								</div>
+								<div class="col-auto ml-auto">
+									<button class="btn btn-main" id="add-to-list-save">Save changes</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="micro-modal micromodal-slide" id="report-modal" aria-hidden="true" data-controller="report">
+			</div>
+
+			<div class="micro-modal micromodal-slide" id="feedback-modal" aria-hidden="true">
+				<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+					<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="feedback-modal-title">
+						<div class="modal__content container-fluid">
+							<div class="row">
+								<div class="col">
+									<p class="mb-0" id="feedback-question-label"></p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-center">
+									<input type="radio" name="feedback" id="feedback_sad" value="sad" /><label class="feedback_sad" for="feedback_sad"><i class="fa-solid fa-face-frown"></i></label>
+								</div>
+								<div class="col text-center">
+									<input type="radio" name="feedback" id="feedback_neutral" value="neutral" /><label class="feedback_neutral" for="feedback_neutral"><i class="fa-solid fa-face-meh"></i></label>
+								</div>
+								<div class="col text-center">
+									<input type="radio" name="feedback" id="feedback_happy" value="happy" /><label class="feedback_happy" for="feedback_happy"><i class="fa-solid fa-face-smile"></i></label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="mb-0">Write your feedback <small class="subtitle-text">Optional</small></p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<textarea name="feedback_body" id="feedback_body" rows="4" placeholder="Share your thoughts!" class="p-2 w-100 backloggd-field">
+</textarea>
+								</div>
+							</div>
+							<div class="row" id="beta-opt-out-text">
+								<div class="col">
+									<p class="mb-0 subtitle-text text-center">You can disable this beta in your Profile Settings</p>
+								</div>
+							</div>
+							<hr class="my-2">
+							<div class="row">
+								<div class="col-auto">
+									<button class="btn btn-general" data-micromodal-close>Cancel</button>
+								</div>
+								<div class="col-auto ml-auto">
+									<button class="btn btn-main" id="feedback-submit" disabled>Submit</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<!-- Journal Modal -->
+				<div class="modal fade pr-0 backloggd-modal" id="journal-game-modal" role="dialog" aria-labelledby="journal-game-modal" aria-hidden="true" max-logs="50" modal_type="">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-body py-0" type="full">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="micro-modal micromodal-slide" id="quick-play-type-modal" game_id="" aria-hidden="true">
+					<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+						<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="play-type-modal-title">
+						<div class="pt-1 modal__header">
+							<h5 class="mb-0" id="play-type-modal-title">Set your played status</h5>
+						</div>
+						<div class="modal__content container-fluid">
+								<div class="row pt-1 pb-2 mb-2 play-type-option fill-in" id="played" status="5" title="Played">
+									<div class="col-12 my-auto">
+										<h3 class="mb-0"><i class="fa-solid fa-square"></i> Played</h3>
+										<p class="subtitle-text mb-0">Nothing specific</p>
+									</div>
+								</div>
+								<div class="row pt-1 pb-2 mb-2 play-type-option fill-in" id="completed" status="0" title="Completed">
+									<div class="col-12 my-auto">
+										<h3 class="mb-0"><i class="fa-solid fa-square"></i> Completed</h3>
+										<p class="subtitle-text mb-0">Beat your main objective</p>
+									</div>
+								</div>
+								<div class="row pt-1 pb-2 mb-2 play-type-option fill-in" id="retired" status="3" title="Retired">
+									<div class="col-12 my-auto">
+										<h3 class="mb-0"><i class="fa-solid fa-square"></i> Retired</h3>
+										<p class="subtitle-text mb-0">Finished with a game that lacks an ending</p>
+									</div>
+								</div>
+								<div class="row pt-1 pb-2 mb-2 play-type-option fill-in" id="shelved" status="4" title="Shelved">
+									<div class="col-12 my-auto">
+										<h3 class="mb-0"><i class="fa-solid fa-square"></i> Shelved</h3>
+										<p class="subtitle-text mb-0">Unfinished but may pick up again later</p>
+									</div>
+								</div>
+								<div class="row pt-1 pb-2 mb-2 play-type-option fill-in" id="abandoned" status="2" title="Abandoned">
+									<div class="col-12 my-auto">
+										<h3 class="mb-0"><i class="fa-solid fa-square"></i> Abandoned</h3>
+										<p class="subtitle-text mb-0">Unfinished and staying that way</p>
+									</div>
+								</div>
+							<div class="row mt-4">
+								<div class="col">
+									<button class="btn btn-general w-100" id="unset-played-btn"><i class="fa-kit fa-gamepad-classic-light"></i> Mark as unplayed</button>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+	</body>
+</html>
+
