@@ -13,7 +13,7 @@
 		<nav>
 			<a href="tentang.html">Tentang Owner</a> |
 			<a href="produk.html">Katalog Jasa & Paket Harga</a> |
-            <a href="kontak.html">Kontak Dan Pemesanan</a>
+            <a href="kontak.html"><b>Kontak Dan Pemesanan</b></a>
 		</nav>
 		<hr>
 	 </header>
@@ -28,9 +28,81 @@
                 <br>
                 <label for="nama_lengkap">Nama Lengkap :</label><br>
                 <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Contoh: Adulf Nigler" size="40" required>
-             </fieldset>
+                <br><br>
+
+                <label for="email_pemesanan">Alamat Email Aktif:</label><br>
+                <input type="email" name="email_pemesan" id="email_pemesan" placeholder="nama@domain.com" size="40" required>
+                <br><br>
+
+                <label for="no_wasap">Nomor Wasap / Hape :</label><br>
+                <input type="tel" name="no_wasap" id="no_wasap" placeholder="086767676767" required>
+                <br><br>
+                
+                <label>Tipe Kategori Klien :</label><br>
+                <input type="radio" id="kategori_personal" name="tipe_klien" value="Personal" checked>
+                <label for="kategori_personal">Perorangan / UMKM</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="kategori_korporat" name="tipe_klien" value="Korporat">
+                <label for="kategori_korporat">Perusahaan / Instansi Pemerintah</label>
+                <br><br>
+
+                <label>Jenis Kelamin :</label><br>
+                <input type="radio" name="jkk">
+                <label for="">Laki-Laki</label>
+                <input type="radio" name="jkk">
+                <label for="">Perempuan</label>
+            </fieldset>
              <br>
-             <button type="submit"><b>Kirim Pesanan Sekarang</b></button>
+             <!-- Grup 2 Detail Pemesanan  -->
+             <fieldset>
+                <legend><b>2. Rincian Pemesanan Jasa Digital</b></legend><br>
+                <label for="pilih_paket">Pilih Paket Layanan (Lihat Katalog Di Halaman Produk) :</label><br>
+                <select name="pilih_paket" id="pilih_paket" required>
+                    <option value="">-- Pilih Paket Jasa --</option>
+                    <option value="Tatoba">OOO Core Medals (Rp. 1.500.000)</option>
+                    <option value="Latoratah">OOO Driver (Rp. 3.500.000)</option>
+                    <option value="Gatakiriba">Combo Tatoba (Rp. 500.000)</option>
+                    <option value="Sagouzo">Core Combo (Rp. 1.000.000)</option>
+                </select>
+                <br><br>
+
+                <label>Layanan Tambahan (Add-Ons) :</label><br>
+                <input type="checkbox" name="addons[]" id="addons_seo" value="SEO Optimization">
+                <label for="addons_seo">Optimasi SEO On-Page (+ Rp 500.000)</label><br>
+                <input type="checkbox" name="addons[]" id="addons_express" value="Express Delivery">
+                <label for="addons_express">Pengerjaan Kilat 1 Hari (+ Rp 750.000)</label><br>
+                <input type="checkbox" name="addons[]" id="addons_content" value="Mamamia">
+                <label for="addons_content">Mamaia Luigi (+ Rp 50.000)</label>
+                <br><br>
+
+                <label for="target_selesai">Estimasi Target Selesai :</label><br>
+                <input type="date" name="target_selesai" id="target_selesai">
+                <br><br>
+
+                <label for="detail_pesan">Catatan Proyek :</label><br>
+                <textarea name="detail_pesanan" id="detail_pesanan" rows="6" cols="50" placeholder="Tuliskan baldawdkkdafakwkfwak...."></textarea>
+                <br><br>
+             </fieldset>
+             <button type="submit"><b>Kirim Pesanan Sekarang</b></button>&nbsp;
              <button type="reset">Bersihkan Formulir</button>
         </form>
+        <!-- Alamat Studio -->
+         <section>
+            <hr>
+            <h3>Kantor & Studio Operasional</h3>
+            <p><b>Androg Studio</b>
+                Gedung Laboratorium Bisnis Digital, Kampus Politeknik Negeri Banjarmasin <br>
+                Jl. Brigjen H. Hasan Basry, Kayu Tangi, Banjarmasin, Kalimantan Selatan <br>
+                Email : <i>info@androgstudio.poliban.ac.id</i> | Wasap : <i>086767676767</i>
+            </p>
+
+            <h4>Lokasi Studio di Google Maps:</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.219719647902!2d114.57935537432351!3d-3.295693896679192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423a80d47ba6b%3A0x8f5abfaddfe5a2d7!2sPoliteknik%20Negeri%20Banjarmasin!5e0!3m2!1sid!2sid!4v1789957082739!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+         </section>
     </main>
+
+    <footer>
+        <hr>
+        <p align="center">&copy; 2026 Androg Studio - Hak Cipta Tidak Dilindungi Undang-Undang</p>
+    </footer>
+</body>
+</html>
