@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz1</title>
+</head>
+<body>
+    <header>
+        <table width="65%">
+            <tr>
+                <td>
+                    <h1>Form Pemesanan Ringkas - Androg Studio</h1>
+                <td align="right">
+                    <a href="../produk.html">Kembali ke Beranda</a>
+            
+                </td>
+            </tr>
+        </table>
+        
+        <hr>
+    </header>
+    <section>
+        <table width="70%">
+            <tr>
+                <td width="50%">
+                    <img src="../ooo_driver.jpg" alt="OOO Driver" width="320">
+                </td>
+
+                <td valign="top">
+                    <h2>OOO DRIVER</h2>
+                    <p>Ini deskripsi singkat, karena gambar mainan. Mamah aku mau mainannya mahal</p>
+                </td>
+            </tr>
+        </table>
+        
+        <br>
+    </section>
+    <br>
+    <table border="1" cellpadding="10" cellspacing="0" width="70%">
+        <thead>
+            <tr bgcolor="#008080">
+                <th>Nama Paket</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>OOO Core Medals</td>
+                <td>Rp. 1.500.000</td>
+            </tr>
+            <tr>
+				<td>OOO Driver</td>
+				<td>Rp 3.500.000</td>
+			</tr>
+			<tr>
+				<td>Content Creator</td>
+				<td>Rp 500.000</td>
+			</tr>
+        </tbody>
+    </table>
+    <br>
+    
+    <fieldset>
+        <legend><b>Formulir Pemesanan</b></legend>
+
+        <table>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td>
+                    <input type="text" placeholder="Contoh : Adulf" size="40" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alamat Email</td>
+                <td>:</td>
+                <td>
+                    <input type="email" placeholder="nama@domain.com" size="40" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Paket</td>
+                <td>:</td>
+                <td>
+                    <select name="pilih_paket" id="pilih_paket" required>
+                        <option value="">-- Pilih Paket --</option>
+                        <option value="Tatoba">OOO Core Medals (Rp. 1.500.000)</option>
+                        <option value="Latoratah">OOO Driver (Rp. 3.500.000)</option>
+                        <option value="Gugugaga">Content Creator (Rp. 500.000)</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit">Kirim Pesanan</button>
+                </td>
+            </tr>
+        </table>
+
+    </fieldset>
+</body>
+</html>
