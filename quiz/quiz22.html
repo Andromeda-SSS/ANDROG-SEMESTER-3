@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Nama : Andromeda Andrias <br />
+      NIM : E030425046
+    </p>
+    <hr />
+    <p>Kuis Praktikum : Form Pemesanan Service</p>
+    <form action="#" method="post">
+      <table>
+        <tr>
+          <td>Nama Pelanggan</td>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              placeholder="Masukkan Nama"
+              size="40"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Kategori Layanan</td>
+          <td>:</td>
+          <td>
+            <select name="pilih_paket" id="pilih_paket" required>
+              <option value="web">Web Development</option>
+              <option value="graphic">Graphic Design</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+            <td>Metode Pembayaran</td>
+            <td>:</td>
+            <td>
+                <input type="radio" id="transfer" name="tipe_pembayaran" value="transfer" checked>
+                <label for="transfer">Transfer</label>
+                <input type="radio" id="ewalet" name="tipe_pembayaran" value="ewalet">
+                <label for="ewalet">E-Wallet</label>
+            </td>
+        </tr>
+
+      </table>
+      <button type="submit">Kirim Form</button>
+    </form>
+  </body>
+</html>
