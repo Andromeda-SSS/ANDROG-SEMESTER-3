@@ -4,83 +4,88 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, intial-scale=1.0">
 	<title>Katalog Produk & Portofolio - Androg Studio</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<!-- Bagian Pala Web (Header dan Navigasi) -->
 	 <header>
-		<h1>Androg Studio</h1>
-		<p>Solusi Perubahan Bisnis Digital Anda Di Jaweten</p>
-		<nav>
-			<a href="tentang.html">Tentang Owner</a> |
-			<a href="produk.html"><b>Katalog Jasa & Paket Harga</b></a> |
-			<a href="kontak.html">Kontak Dan Pemesanan</a> 
-		</nav>
-		<hr>
+		<div class="container">
+			<h1>Androg Studio</h1>
+			<p>Solusi Perubahan Bisnis Digital Anda Di Jaweten</p>
+			<nav>
+				<a href="tentang.html">Tentang Owner</a> |
+				<a href="produk.html" class="active">Katalog Jasa & Paket Harga</a> |
+				<a href="kontak.html">Kontak Dan Pemesanan</a> 
+			</nav>
+		</div>
 	 </header>
-	 <section>
-		<h2>Portofolio & Karya Unggulan Androg</h2>
 
-		<!-- Menampilkan Gambar Mockup (Gambar di folder sendiri) -->
-		 <p>
-		 	<img src="ooo_driver.jpg" alt="Mockup OOO Driver" width="450">
-		 	<br>
-		 	<em>Gambar 1: OOO Driver</em>
-		</p>
-		<!-- Menampilkan Video Yutub  -->
-		 <p>
-			<h3>Video Insert Song OOO</h3>
-			<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Us3nY2StTuw?si=8Rxqfb5YfSXRslgD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-			 <video controls>
-				<source src="vidio.mp4" type="video/mp4" />
-			 </video>
-		 </p>
-	 </section>
-	 <hr>
-	 <section>
-		<h2>Paket Pelayanan & Harga Jasa Kreatif</h2>
-		<p>Pilih paket layanan terbaik sesai kebutuhan anda</p>
+	 <main class="container">
+	 	<section class="section">
+			<h2 class="section-title">Portofolio & Karya Unggulan Androg</h2>
+			<p class="section-subtitle">Beberapa proyek digital yang telah kami selesaikan untuk klien UMKM lokal</p>
 
-		<table border="1" cellpadding="8" cellspacing="0">
-			<thead>
-				<tr bgcolor="#008080">
-					<!-- Judul tabel pakai colspan supaya panjang 4 kolom -->
-					 <th colspan="4"><font color="white">DAFTAR HARGA JASA DIGITAL</font></th>
-				</tr>
-				<tr>
-					<th>Kategori Produk</th>
-					<th>Nama Paket</th>
-					<th>Fasilitas Utama</th>
-					<th>Estimasi Biaya</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<!-- Kategori Web Gabung 2 Baris Vertikal pakai rowspan -->
-					<td rowspan="2"><b>Driver & Collectibles</b></td>
-					<td>OOO Core Medals</td>
-					<td>5 Set Core Medal</td>
-					<td>Rp 1.500.000</td>
-				</tr>
-				<tr>
-					<td>OOO Driver</td>
-					<td>1 Driver, 1 Scanner, 1 Belt Strap, TaToBa Medal</td>
-					<td>Rp 3.500.000</td>
-				</tr>
-				<tr>
-					<td rowspan="2"><b>Content Creator</b></td>
-					<td>Combo Tatoba</td>
-					<td>1 Combo, 20 Subform bla bla</td>
-					<td>Rp 500.000</td>
-				</tr>
-				<tr>
-					<td>Core Combo</td>
-					<td>GaTaKiriBa, LaToraTah, SaGoZou</td>
-					<td>Rp 1.000.000</td>
-				</tr>
-			</tbody>
-		</table>
-	 </section>
-	 <!-- Alamat Studio -->
+			<!-- Menampilkan Gambar Mockup (Gambar di folder sendiri) -->
+		 	<p>
+		 		<img src="ooo_driver.jpg" alt="Mockup OOO Driver" width="450">
+		 		<br>
+		 		<em>Gambar 1: OOO Driver</em>
+			</p>
+			<!-- Menampilkan Video Yutub  -->
+		 	<p>
+				<h3>Video Insert Song OOO</h3>
+				<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Us3nY2StTuw?si=8Rxqfb5YfSXRslgD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+			 	<video controls>
+					<source src="vidio.mp4" type="video/mp4" />
+			 	</video>
+		 	</p>
+	 	</section>
+	 	<hr>
+	 	<section>
+			<h2>Paket Pelayanan & Harga Jasa Kreatif</h2>
+			<p>Pilih paket layanan terbaik sesai kebutuhan anda</p>
+
+			<table border="1" cellpadding="8" cellspacing="0">
+				<thead>
+					<tr bgcolor="#008080">
+						<!-- Judul tabel pakai colspan supaya panjang 4 kolom -->
+					 	<th colspan="4"><font color="white">DAFTAR HARGA JASA DIGITAL</font></th>
+					</tr>	
+					<tr>
+						<th>Kategori Produk</th>
+						<th>Nama Paket</th>
+						<th>Fasilitas Utama</th>
+						<th>Estimasi Biaya</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<!-- Kategori Web Gabung 2 Baris Vertikal pakai rowspan -->
+						<td rowspan="2"><b>Driver & Collectibles</b></td>
+						<td>OOO Core Medals</td>
+						<td>5 Set Core Medal</td>
+						<td>Rp 1.500.000</td>
+					</tr>
+					<tr>
+						<td>OOO Driver</td>
+						<td>1 Driver, 1 Scanner, 1 Belt Strap, TaToBa Medal</td>
+						<td>Rp 3.500.000</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><b>Content Creator</b></td>
+						<td>Combo Tatoba</td>
+						<td>1 Combo, 20 Subform bla bla</td>
+						<td>Rp 500.000</td>
+					</tr>
+					<tr>
+						<td>Core Combo</td>
+						<td>GaTaKiriBa, LaToraTah, SaGoZou</td>
+						<td>Rp 1.000.000</td>
+					</tr>
+				</tbody>
+			</table>
+	 	</section>
+	 	<!-- Alamat Studio -->
          <section>
             <hr>
             <h3>Kantor & Studio Operasional</h3>
@@ -93,7 +98,7 @@
             <h4>Lokasi Studio di Google Maps:</h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.219719647902!2d114.57935537432351!3d-3.295693896679192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423a80d47ba6b%3A0x8f5abfaddfe5a2d7!2sPoliteknik%20Negeri%20Banjarmasin!5e0!3m2!1sid!2sid!4v1789957082739!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
          </section>
-    </main>
+   	 </main>
 
     <footer>
         <hr>
