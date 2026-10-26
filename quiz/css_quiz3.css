@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #228B22;
+    --white: #FFFFFF;
+    --background-color: #BADBBE;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #BADBBE;
+}
+
+.table-center {
+    margin: auto;
+}
+
+.row-hijau {
+    background-color: var(--primary-color);
+}
+
+.row-putih {
+    background-color: var(--white);
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--white);
+}
