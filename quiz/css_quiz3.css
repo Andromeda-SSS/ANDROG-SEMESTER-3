@@ -12,6 +12,10 @@ body {
     background-color: #BADBBE;
 }
 
+table {
+    border-color: black;
+}
+
 .table-center {
     margin: auto;
 }
