@@ -23,86 +23,98 @@
 	 <main class="container">
 	 	<section class="section">
 			<h2 class="section-title">Portofolio & Karya Unggulan Androg</h2>
-			<p class="section-subtitle">Beberapa proyek digital yang telah kami selesaikan untuk klien UMKM lokal</p>
+			<p class="section-subtitle">Beberapa proyek digital yang telah kami selesaikan untuk klien</p>
 
-			<!-- Menampilkan Gambar Mockup (Gambar di folder sendiri) -->
-		 	<p>
-		 		<img src="ooo_driver.jpg" alt="Mockup OOO Driver" width="450">
-		 		<br>
-		 		<em>Gambar 1: OOO Driver</em>
-			</p>
-			<!-- Menampilkan Video Yutub  -->
-		 	<p>
-				<h3>Video Insert Song OOO</h3>
-				<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Us3nY2StTuw?si=8Rxqfb5YfSXRslgD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-			 	<video controls>
-					<source src="vidio.mp4" type="video/mp4" />
-			 	</video>
-		 	</p>
+			<div class="card-grid">
+				<article class="card">
+					<img src="ooo_driver.jpg" alt="Mockup OOO Driver" class="card-img">
+					<div class="card-body">
+						<h3 class="card-title">Landing Page Kamen Raida</h3>
+						<p class="card-text">OOO Driver</p>
+					</div>
+				</article>
+				<article class="card">
+					<div class="video-container">
+						<iframe src="https://www.youtube.com/embed/Us3nY2StTuw?si=8Rxqfb5YfSXRslgD" title="YouTube video player" allowfullscreen></iframe>
+					</div>
+					<div class="card-body">
+						<h3 class="card-title">Video Insert Song OOO</h3>
+						<p class="card-text">Inilah Masterpiece Insert Song Sob</p>
+					</div>
+				</article>
+			</div>
 	 	</section>
-	 	<hr>
-	 	<section>
-			<h2>Paket Pelayanan & Harga Jasa Kreatif</h2>
-			<p>Pilih paket layanan terbaik sesai kebutuhan anda</p>
+	 	
+	 	<section class="section">
+			<h2 class="section-title">Paket Driver & Harga Medal-Medal</h2>
+			<p class="section-subtitle">Pilih paket layanan terbaik sesai kebutuhan anda</p>
 
-			<table border="1" cellpadding="8" cellspacing="0">
-				<thead>
-					<tr bgcolor="#008080">
-						<!-- Judul tabel pakai colspan supaya panjang 4 kolom -->
-					 	<th colspan="4"><font color="white">DAFTAR HARGA JASA DIGITAL</font></th>
-					</tr>	
-					<tr>
-						<th>Kategori Produk</th>
-						<th>Nama Paket</th>
-						<th>Fasilitas Utama</th>
-						<th>Estimasi Biaya</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<!-- Kategori Web Gabung 2 Baris Vertikal pakai rowspan -->
-						<td rowspan="2"><b>Driver & Collectibles</b></td>
-						<td>OOO Core Medals</td>
-						<td>5 Set Core Medal</td>
-						<td>Rp 1.500.000</td>
-					</tr>
-					<tr>
-						<td>OOO Driver</td>
-						<td>1 Driver, 1 Scanner, 1 Belt Strap, TaToBa Medal</td>
-						<td>Rp 3.500.000</td>
-					</tr>
-					<tr>
-						<td rowspan="2"><b>Content Creator</b></td>
-						<td>Combo Tatoba</td>
-						<td>1 Combo, 20 Subform bla bla</td>
-						<td>Rp 500.000</td>
-					</tr>
-					<tr>
-						<td>Core Combo</td>
-						<td>GaTaKiriBa, LaToraTah, SaGoZou</td>
-						<td>Rp 1.000.000</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="card-grid">
+				<article class="card pricing-card">
+					<div class="card-body">
+						<span class="badge">Driver & Collectibles</span>
+						<h3 class="card-title">OOO Core Medal</h3>
+						<p class="card-price">Rp. 1.500.000</p>
+						<ul class="card-features">
+							<li>5 Set Core Medal</li>
+							<li>10 Cell Medal</li>
+							<li>Medajaribur</li>
+							<li>Birth Buster</li>
+						</ul>
+						<a href="kontak.html" class="btn-primary">Pesan Paket</a>
+					</div>
+				</article>
+				<article class="card pricing-card">
+					<div class="card-body">
+						<span class="badge badge-featured">Driver & Collectibles</span>
+						<h3 class="card-title">OOO Driver</h3>
+						<p class="card-price">Rp. 3.500.000</p>
+						<ul class="card-features">
+							<li>1 Driver</li>
+							<li>1 Scanner</li>
+							<li>1 Belt Strap</li>
+							<li>TaToBa Core Medal</li>
+						</ul>
+						<a href="kontak.html" class="btn-primary">Pesan Paket</a>
+					</div>
+				</article>
+				<article class="card pricing-card">
+					<div class="card-body">
+						<span class="badge">Medal Sets</span>
+						<h3 class="card-title">Combo Tatoba</h3>
+						<p class="card-price">Rp. 500.000</p>
+						<ul class="card-features">
+							<li>TaToBa Combo</li>
+							<li>LaToraTah Combo</li>
+							<li>GaTaKiriBa</li>
+						</ul>
+						<a href="kontak.html" class="btn-primary">Pesan Paket</a>
+					</div>
+				</article>
+				<article class="card pricing-card">
+					<div class="card-body">
+						<span class="badge">Medal Sets</span>
+						<h3 class="card-title">Core Combo</h3>
+						<p class="card-price">Rp. 1.000.000</p>
+						<ul class="card-features">
+							<li>SaGoZou Combo</li>
+							<li>TaJaDoru Combo + Tajaspiner</li>
+							<li>PuToTyra Combo + Medagabryu</li>
+						</ul>
+						<a href="kontak.html" class="btn-primary">Pesan Paket</a>
+					</div>
+				</article>
+			</div>
+
+
 	 	</section>
-	 	<!-- Alamat Studio -->
-         <section>
-            <hr>
-            <h3>Kantor & Studio Operasional</h3>
-            <p><b>Androg Studio</b>
-                Gedung Laboratorium Bisnis Digital, Kampus Politeknik Negeri Banjarmasin <br>
-                Jl. Brigjen H. Hasan Basry, Kayu Tangi, Banjarmasin, Kalimantan Selatan <br>
-                Email : <i>info@androgstudio.poliban.ac.id</i> | Wasap : <i>086767676767</i>
-            </p>
-
-            <h4>Lokasi Studio di Google Maps:</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.219719647902!2d114.57935537432351!3d-3.295693896679192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423a80d47ba6b%3A0x8f5abfaddfe5a2d7!2sPoliteknik%20Negeri%20Banjarmasin!5e0!3m2!1sid!2sid!4v1789957082739!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-         </section>
    	 </main>
 
     <footer>
-        <hr>
-        <p align="center">&copy; 2026 Androg Studio - Hak Cipta Tidak Dilindungi Undang-Undang</p>
+        <div class="container">
+			<p>&copy; 2026 Androg Studio - Hak Cipta Tidak Dilindungi Undang-Undang</p>
+		</div>
+        
     </footer>
 
 </body>
